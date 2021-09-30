@@ -3,6 +3,8 @@
 <Project>
     <Template>FPGA</Template>
     <Version>5</Version>
-    <Device name="" pn="">gw1n4-011</Device>
-    <FileList/>
+    <Device name="GW1N-4" pn="GW1N-LV4LQ144C6/I5">gw1n4-011</Device>
+    <FileList>
+        <File path="src/mac.v" type="file.verilog" enable="1"/>
+    </FileList>
 </Project>
