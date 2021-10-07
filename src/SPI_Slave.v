@@ -52,8 +52,9 @@ end
 always @(posedge clk) byte_received <= SSEL_active && SCK_risingedge && (bitcnt==3'b111);
 
 // we use the LSB of the data received to control an LED
+// Invert the bit as LED's driven inversely
 reg LED;
-always @(posedge clk) if(byte_received) LED <= byte_data_received[0];
+always @(posedge clk) if(byte_received) LED <= ~byte_data_received[0];
 
 
 

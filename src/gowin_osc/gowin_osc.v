@@ -17,6 +17,6 @@ OSC osc_inst (
 
 // Base Osc freq on GW1N-4 is 210MHz, and output freq is 210MHz /  FREQ_DIV, divide between 2 & 128
 defparam osc_inst.FREQ_DIV = 2;
-defparam osc_inst.DEVICE = "GW1N-4";
+defparam osc_inst.DEVICE = "GW1N-4B";
 
 endmodule //Gowin_OSC

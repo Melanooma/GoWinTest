@@ -16,6 +16,6 @@ Gowin_OSC FPGA_osc(
 );
 
 // Instantiate and connect the SPI block
- SPI_slave(oscout_o, SCK, MOSI, MISO, SSEL, LED);
+ SPI_slave SPI_port(oscout_o, SCK, MOSI, MISO, SSEL, LED);
 
 endmodule

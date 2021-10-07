@@ -1,0 +1,58 @@
+/***********************************************************************
+ Physical Constraint file 
+ Version:1.8.1Beta
+ Created Time:   Fri Nov 30 18:29:46 2018
+ Device:         GW1N-4
+ Package:        LQFP144
+************************************************************************/
+
+
+// Services
+IO_LOC "I_clk" 6; // Pin-6/B3 
+IO_PORT "I_clk" IO_TYPE=LVCMOS33;
+
+IO_LOC "I_rst_n" 92; // Pin-92/B1
+IO_PORT "I_rst_n" IO_TYPE=LVCMOS33;
+
+// Push Keys
+IO_LOC "I_key4_n" 46; // Pin-46/B2
+IO_PORT "I_key4_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "I_key3_n" 45; // Pin-45/B2
+IO_PORT "I_key3_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "I_key2_n" 44; // Pin-44/B3
+IO_PORT "I_key2_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "I_key1_n" 43; // Pin-43/B2
+IO_PORT "I_key1_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// Switches
+IO_LOC "I_sw1" 68; // Pin-68/B2
+IO_PORT "I_sw1" IO_TYPE=LVCMOS33;
+
+IO_LOC "I_sw2" 69; // Pin-69/B2 
+IO_PORT "I_sw2" IO_TYPE=LVCMOS33;
+
+IO_LOC "I_sw3" 79; // Pin-79/B1
+IO_PORT "I_sw3" IO_TYPE=LVCMOS33;
+
+IO_LOC "I_sw4" 80; // pin-80/B1 
+IO_PORT "I_sw4" IO_TYPE=LVCMOS33;
+
+
+// LEDs
+IO_LOC "O_led1_n" 47; // Pin-47/B2 
+IO_PORT "O_led1_n" IO_TYPE=LVCMOS33;
+
+IO_LOC "O_led2_n" 57; // Pin-57/B2 
+IO_PORT "O_led2_n" IO_TYPE=LVCMOS33;
+
+IO_LOC "O_led3_n" 60; // Pin-60/B2 LED3
+IO_PORT "O_led3_n" IO_TYPE=LVCMOS33;
+
+IO_LOC "O_led4_n" 61; // Pin-61/B2 LED4
+IO_PORT "O_led4_n" IO_TYPE=LVCMOS33;
+
+
+

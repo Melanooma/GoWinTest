@@ -16,3 +16,16 @@ IO_LOC "LED" 47;
 
 
 // SPI pins needed, IO type ? 
+
+// Bank 0 VCCO0 =
+// CS / SSEL signal H_A_IO1 pin 131 bank 0
+IO_LOC "SSEL" 131;
+
+// MOSI H_A_IO5 pin 135 bank 0
+IO_LOC "MOSI" 135;
+
+// SCLK / SCK H_A_IO2 pin 132 bank 0
+IO_LOC "SCK" 132;
+
+// MISO H_A_IO6 pin 136 bank 0
+IO_LOC "MISO" 136;
